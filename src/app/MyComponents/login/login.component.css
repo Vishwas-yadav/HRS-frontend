@@ -1,0 +1,39 @@
+.text-align-left{
+    text-align: left;
+}
+.cursor-pointer-forget{
+    cursor: pointer;
+}
+.cursor-pointer-forget:hover{
+    color: black;
+}
+.color-white{
+color: white;
+}
+.color-red{
+    color: red;
+}
+.wrong{
+    border: 1px solid red;
+}
+.div-bg{
+    position: fixed;
+    z-index: -1;
+}
+.backgroud-theame{
+    background: #F8F9FA;
+}
+.height-large{
+    /* margin-top:-10px; */
+    bottom: -14px;
+    position: fixed;
+    height: 105px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .height-large{
+        bottom: -10px;
+        height: auto;
+        position: fixed;
+    }
+  }
